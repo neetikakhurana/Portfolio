@@ -1,0 +1,219 @@
+img {
+
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
+}
+input{
+    font-size: 140%;
+    width: 100%;
+    background-color: #f1f1f1;
+        border: #bbbbbb 1px solid;
+
+}
+textarea{
+        font-size: 220%;
+      width: 100%;
+    background-color: #f1f1f1;
+    border: #bbbbbb 1px solid;
+}
+.align{
+    text-align: left;
+}
+.project{
+    background-image:url(assets/images/caspar-rubin-224229.jpg) !important;
+}
+.contact{
+    background-image:url(assets/images/giulia-bertelli-94303.jpg) !important;
+}
+.experience{
+    background-image:url(assets/images/jazmin-quaynor-36221.jpg) !important;
+}
+.resume{
+    background-image:url(assets/images/sergey-zolkin-192937.jpg) !important;
+}
+.jumbotron {
+  background-image:url(assets/images/about.jpg);
+  height:350px;
+     background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding-top: 2px;
+}  
+#ed{
+    text-align:center;
+}
+.jumbotron > h2{
+    color: azure;
+    margin-top: 10%;
+    text-align: center;
+}
+.item>ul{
+    text-align: left;
+}
+.row>h3{
+    text-align: center;
+    margin-bottom: 39px;
+   
+}
+.row>span{
+    text-align: center;
+    padding-top: 50px;
+    font-size: -webkit-xxx-large;
+}
+.row>span>h5{
+    font-size: medium;
+    text-align: left;
+    line-height: 1.7;
+}
+.row>span>i{
+    margin-left: 15%;
+    margin-right: 5%;
+    font-size: 40px;
+}
+.row>span>p{
+    font-size: 15px;
+    text-align: left;
+}
+header>h2{
+     font-family: 'Bree Serif', serif !important;
+}
+.row>strong{
+    text-align: center;
+    padding-bottom: 10px;
+}
+        .name > h1
+        {
+                font-family: "Playfair Display" !important;
+    font-size: 54px !important;
+    line-height: 1em !important;
+    margin-top: 23%;
+            text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-weight: 700 !important;
+    font-style: normal;
+    color: #333;
+        }
+    .name > h4{
+    font-size: 18px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: .28em;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+           text-align: center;
+        }
+        #button{
+            background: white;
+            color:black;
+            border: black 2px solid;
+           
+            height: 50px !important;
+        width: 109px !important;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+        }
+.namesub{
+    font-size: 14px;
+    color: #bbbbbb;
+}
+.navbar {
+  background: rgba(0,0,0,0.0) !important;
+}
+.names{
+ padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.row> button{
+            background: black;
+            color:azure;
+            border: black 2px solid;
+            margin-top: 7% !important;
+            margin-left: 40%;
+            height: 50px !important;
+        width: 109px !important;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+        }
+        #button:hover{
+            background-color: black;
+            color: white;
+        }
+.row>button:hover{
+            background-color: whitesmoke;
+            color: black;
+        }
+footer{
+    background-color: #331a00;
+    color: azure;
+    height: 50px;
+}
+footer>ul{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 18px;
+}
+.row>p{
+        line-height: 1.7;
+    margin-left: 15%;
+    width: 700px;
+    text-align: justify !important;
+}
+.container{
+    width:1046px;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 400;
+}
+.social-icons{
+    font-size: 18px;
+}
+.title{
+    color: #61c250;
+}
+
+a{
+ color:inherit;
+}
+.nav>li{
+    font-family: 'Bree Serif', serif !important;
+    color: #ffffff !important;
+    font-size: 16px;
+    letter-spacing: .08em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-right: 25px;
+     background-color: transparent;
+}
+.nav>li>a:hover {
+    color: whitesmoke !important;
+    background-color: transparent;
+}
+
+.navbar .divider-vertical {
+    height: 30px;
+    margin: 0 9px;
+  /**  border-right: 1px solid #ffffff;
+    border-left: 1px solid #f2f2f2;**/
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+    border-left-color: #111111;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+    body{
+        /*overflow: scroll;*/
+    }
+}
